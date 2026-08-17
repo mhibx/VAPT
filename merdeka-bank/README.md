@@ -244,7 +244,7 @@ The screenshots were chosen to show the most relevant parts of the testing proce
 
 ### 01 — OTP Brute Force
 
-![OTP Brute Force](./screenshots/01-weak-authentication-otp-bruteforce.png)
+![OTP Brute Force](./screenshots/MerdekaBank-weak-authentication-otp-bruteforce.png)
 
 Burp Suite was used to test the OTP verification mechanism and validate the lack of effective rate limiting.
 
@@ -252,7 +252,7 @@ Burp Suite was used to test the OTP verification mechanism and validate the lack
 
 ### 02 — IDOR / Transfer Manipulation
 
-![IDOR Transfer](./screenshots/02-idor-transfer-request.png)
+![IDOR Transfer](./screenshots/MerdekaBank-idor-transfer-request.png)
 
 The transfer request was intercepted and modified to test whether the application properly validated the source and destination accounts.
 
@@ -260,7 +260,7 @@ The transfer request was intercepted and modified to test whether the applicatio
 
 ### 03 — Authentication Bypass
 
-![Authentication Bypass](./screenshots/03-authentication-bypass.png)
+![Authentication Bypass](./screenshots/MerdekaBank-authentication-bypass.png)
 
 The OTP verification step was bypassed during the authentication flow.
 
@@ -268,7 +268,7 @@ The OTP verification step was bypassed during the authentication flow.
 
 ### 04 — Business Logic / Amount Manipulation
 
-![Business Logic](./screenshots/04-business-logic-amount-manipulation.png)
+![Business Logic](./screenshots/MerdekaBank-business-logic-amount-manipulation.png)
 
 The transaction amount was modified in the intercepted request and the application still processed the transaction.
 
@@ -276,7 +276,7 @@ The transaction amount was modified in the intercepted request and the applicati
 
 ### 05 — Stored XSS
 
-![Stored XSS](./screenshots/05-stored-xss.png)
+![Stored XSS](./screenshots/MerdekaBank-stored-xss.png)
 
 A stored XSS payload was successfully executed when the affected feedback was displayed.
 
