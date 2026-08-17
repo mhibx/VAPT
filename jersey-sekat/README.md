@@ -205,7 +205,7 @@ The screenshots were selected to demonstrate the most important parts of the tes
 
 ### 01 — Directory Enumeration
 
-![Directory Enumeration](./screenshots/01-directory-enumeration.png)
+![Directory Enumeration](./screenshots/JerseySekat-DirList1.png)
 
 Directory enumeration was used to identify application paths and publicly accessible resources.
 
@@ -213,7 +213,7 @@ Directory enumeration was used to identify application paths and publicly access
 
 ### 02 — Directory Listing
 
-![Directory Listing](./screenshots/02-directory-listing.png)
+![Directory Listing](./screenshots/JerseySekat-DirList2.png)
 
 The `/uploads/` directory exposed its contents through directory indexing.
 
@@ -221,7 +221,7 @@ The `/uploads/` directory exposed its contents through directory indexing.
 
 ### 03 — Security Headers
 
-![Security Headers](./screenshots/03-security-headers.png)
+![Security Headers](./screenshots/JerseySekat-Misconfig.png)
 
 Security header analysis showed that only a small portion of the expected browser security controls were implemented.
 
@@ -229,7 +229,8 @@ Security header analysis showed that only a small portion of the expected browse
 
 ### 04 — SQL Injection
 
-![SQL Injection](./screenshots/04-sql-injection.png)
+![SQL Injection](./screenshots/JerseySekat-SQLi1.png)
+![SQL Injection](./screenshots/JerseySekat-SQLi2.png)
 
 SQL Injection testing against the login functionality resulted in authentication bypass and access to the administrative interface.
 
@@ -237,7 +238,8 @@ SQL Injection testing against the login functionality resulted in authentication
 
 ### 05 — Stored XSS / File Upload
 
-![Stored XSS](./screenshots/05-file-upload-stored-xss.png)
+![Stored XSS](./screenshots/JerseySekat-XSS-2.png)
+![Stored XSS](./screenshots/JerseySekat-XSS-2-1.png)
 
 The file upload functionality was tested and chained with stored XSS to demonstrate the impact of insufficient upload validation.
 
@@ -288,7 +290,7 @@ The most valuable parts of the assessment were:
 
 The complete penetration testing report is available here:
 
-`report.pdf`
+`Pentest Report-Jersey Sekat-Codelamp Indonesia.pdf`
 
 Selected proof-of-concept evidence:
 
